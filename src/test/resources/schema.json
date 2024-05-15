@@ -1,0 +1,391 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "collegeName": {
+      "type": "string"
+    },
+    "departmentList": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "departmentName": {
+              "type": "string"
+            },
+            "studentList": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "address": {
+                      "type": "string"
+                    },
+                    "rollNumber": {
+                      "type": "integer"
+                    },
+                    "courseList": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "courseName": {
+                              "type": "string"
+                            },
+                            "courseId": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "courseName",
+                            "courseId"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "address",
+                    "rollNumber",
+                    "courseList"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "address": {
+                      "type": "string"
+                    },
+                    "rollNumber": {
+                      "type": "integer"
+                    },
+                    "courseList": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "courseName": {
+                              "type": "string"
+                            },
+                            "courseId": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "courseName",
+                            "courseId"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "address",
+                    "rollNumber",
+                    "courseList"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "address": {
+                      "type": "string"
+                    },
+                    "rollNumber": {
+                      "type": "integer"
+                    },
+                    "courseList": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "courseName": {
+                              "type": "string"
+                            },
+                            "courseId": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "courseName",
+                            "courseId"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "address",
+                    "rollNumber",
+                    "courseList"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "departmentName",
+            "studentList"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "departmentName": {
+              "type": "string"
+            },
+            "studentList": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "address": {
+                      "type": "string"
+                    },
+                    "rollNumber": {
+                      "type": "integer"
+                    },
+                    "courseList": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "courseName": {
+                              "type": "string"
+                            },
+                            "courseId": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "courseName",
+                            "courseId"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "address",
+                    "rollNumber",
+                    "courseList"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "address": {
+                      "type": "string"
+                    },
+                    "rollNumber": {
+                      "type": "integer"
+                    },
+                    "courseList": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "courseName": {
+                              "type": "string"
+                            },
+                            "courseId": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "courseName",
+                            "courseId"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "address",
+                    "rollNumber",
+                    "courseList"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "departmentName",
+            "studentList"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "departmentName": {
+              "type": "string"
+            },
+            "studentList": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "address": {
+                      "type": "string"
+                    },
+                    "rollNumber": {
+                      "type": "integer"
+                    },
+                    "courseList": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "courseName": {
+                              "type": "string"
+                            },
+                            "courseId": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "courseName",
+                            "courseId"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "address",
+                    "rollNumber",
+                    "courseList"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "address": {
+                      "type": "string"
+                    },
+                    "rollNumber": {
+                      "type": "integer"
+                    },
+                    "courseList": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "courseName": {
+                              "type": "string"
+                            },
+                            "courseId": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "courseName",
+                            "courseId"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "address",
+                    "rollNumber",
+                    "courseList"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "departmentName",
+            "studentList"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "collegeName",
+    "departmentList"
+  ]
+}

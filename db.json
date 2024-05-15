@@ -1,0 +1,174 @@
+{
+  "products": [
+    {
+      "id": "708d",
+      "quantity": 10,
+      "price": 22.56,
+      "name": "ABC"
+    },
+    {
+      "id": "c8c8",
+      "quantity": 11,
+      "price": 737.32,
+      "name": "CDE"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "title": "Hello World",
+      "author": "John Doe"
+    },
+    {
+      "id": "2",
+      "title": "JSON Server",
+      "author": "Jane Doe"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "Some comment",
+      "postId": 1
+    },
+    {
+      "id": "2",
+      "body": "Another comment",
+      "postId": 2
+    },
+    {
+      "id": "3",
+      "body": "3rd comment",
+      "postId": 7
+    },
+    {
+      "id": "4",
+      "body": "4th comment",
+      "postId": 10
+    },
+    {
+      "id": "491e",
+      "postId": 3,
+      "body": "Inserted Body"
+    },
+    {
+      "id": "a5e0",
+      "postId": 3,
+      "body": "Inserted Body 2"
+    }
+  ],
+  "profile": {
+    "name": "Test User"
+  },
+  "college": {
+    "collegeName": "MIT",
+    "departmentList": [
+      {
+        "departmentName": "CS",
+        "studentList": [
+          {
+            "name": "ABC",
+            "address": "UK",
+            "rollNumber": 101,
+            "courseList": [
+              {
+                "courseName": "Automation Testing",
+                "courseId": 3
+              },
+              null,
+              null
+            ]
+          },
+          {
+            "name": "CDE",
+            "address": "USA",
+            "rollNumber": 102,
+            "courseList": [
+              {
+                "courseName": "Automation Testing",
+                "courseId": 3
+              },
+              null,
+              null
+            ]
+          },
+          {
+            "name": "DEF",
+            "address": "INDIA",
+            "rollNumber": 103,
+            "courseList": [
+              {
+                "courseName": "Automation Testing",
+                "courseId": 3
+              },
+              null,
+              null
+            ]
+          }
+        ]
+      },
+      {
+        "departmentName": "IT",
+        "studentList": [
+          {
+            "name": "ABC",
+            "address": "UK",
+            "rollNumber": 101,
+            "courseList": [
+              {
+                "courseName": "Automation Testing",
+                "courseId": 3
+              },
+              null,
+              null
+            ]
+          },
+          {
+            "name": "DEF",
+            "address": "INDIA",
+            "rollNumber": 103,
+            "courseList": [
+              {
+                "courseName": "Automation Testing",
+                "courseId": 3
+              },
+              null,
+              null
+            ]
+          }
+        ]
+      },
+      {
+        "departmentName": "CyberSecurity",
+        "studentList": [
+          {
+            "name": "ABC",
+            "address": "UK",
+            "rollNumber": 101,
+            "courseList": [
+              {
+                "courseName": "Automation Testing",
+                "courseId": 3
+              },
+              null,
+              null
+            ]
+          },
+          {
+            "name": "CDE",
+            "address": "USA",
+            "rollNumber": 102,
+            "courseList": [
+              {
+                "courseName": "Automation Testing",
+                "courseId": 3
+              },
+              null,
+              null
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
